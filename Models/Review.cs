@@ -2,8 +2,10 @@
 {
     public class Review
     {
-        public int id { get; set; }
+        public int Reviewid { get; set; }
         public string title { get; set; }
         public string text { get; set; }
+        public Reviewer reviewer { get; set; }
+        public pokemon pokemon { get; set; }
     }
 }
